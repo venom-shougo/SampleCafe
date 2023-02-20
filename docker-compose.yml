@@ -9,6 +9,7 @@ services:
       - 33090:3306
     volumes:
     - cafe_data:/var/lib/mysql
+    - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
     env_file:
       - ./mysql/db-variables.env
 
@@ -29,6 +30,11 @@ services:
     - 8001:80
     volumes:
       - ./src:/var/www/html
+    networks:
+      - cafe_network
 
 volumes:
   cafe_data:
+
+networks:
+  cafe_network:
