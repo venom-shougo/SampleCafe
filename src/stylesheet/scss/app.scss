@@ -1,0 +1,173 @@
+// 行間を和文用へ
+$headings-line-height: 1.5;
+$line-height-base: 1.65;
+// 文字の両端調整
+$text-align: justify;
+// modalの余白を広げる
+// $modal-inner-padding: 30px;
+// $modal-title-padding: 30px;
+// テキストカラーをブルーグレー
+$gray-dark: #546E7A;
+// フォントファミリー
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700');
+
+body {
+  padding: 2rem 1.5rem;
+  color: #333;
+  // change font
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  line-height: 1.8;
+}
+
+section {
+  header {
+    margin-bottom: 1rem;
+  }
+
+  & + & {
+    margin-top: 4rem;
+  }
+}
+
+.sub-title {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+// change radius
+.alert,
+.btn,
+.form-control {
+  border-radius: 0.125rem;
+}
+
+// change button color
+.btn-primary {
+  background-color: #5d9cec !important;
+  border-color: #468ee9 !important;
+  &:hover {
+    background-color: #2f80e7 !important;
+    border-color: #196ed9 !important;
+  }
+}
+.btn-success {
+  background-color: #a0d468 !important;
+  border-color: #94ce54 !important;
+  &:hover {
+    background-color: #87c940 !important;
+    border-color: #75b233 !important;
+  }
+}
+.btn-info {
+  background-color: #22b1e3 !important;
+  border-color: #199bc8 !important;
+  &:hover {
+    background-color: #22b1e3 !important;
+    border-color: #199bc8 !important;
+  }
+}
+.btn-warning {
+  background-color: #ffce54 !important;
+  border-color: #ffc73a !important;
+  &:hover {
+    background-color: #ffbf21 !important;
+    border-color: #fcb400 !important;
+  }
+}
+.btn-danger {
+  background-color: #ed5565 !important;
+  border-color: #eb3e50 !important;
+  &:hover {
+    background-color: #e8273b !important;
+    border-color: #d5172b !important;
+  }
+}
+// カラー変更
+body {
+  padding: 2rem 1.5rem;
+  color: #333;
+  // change font
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  line-height: 1.8;
+}
+
+section {
+  header {
+    margin-bottom: 1rem;
+  }
+
+  &+& {
+    margin-top: 4rem;
+  }
+}
+
+.sub-title {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+// change radius
+.alert,
+.btn,
+.form-control {
+  border-radius: 0.125rem;
+}
+
+// change button color
+.btn-primary {
+  background-color: #5d9cec !important;
+  border-color: #468ee9 !important;
+
+  &:hover {
+    background-color: #2f80e7 !important;
+    border-color: #196ed9 !important;
+  }
+}
+
+.btn-success {
+  background-color: #a0d468 !important;
+  border-color: #94ce54 !important;
+
+  &:hover {
+    background-color: #87c940 !important;
+    border-color: #75b233 !important;
+  }
+}
+
+.btn-info {
+  background-color: #22b1e3 !important;
+  border-color: #199bc8 !important;
+
+  &:hover {
+    background-color: #22b1e3 !important;
+    border-color: #199bc8 !important;
+  }
+}
+
+.btn-warning {
+  background-color: #ffce54 !important;
+  border-color: #ffc73a !important;
+
+  &:hover {
+    background-color: #ffbf21 !important;
+    border-color: #fcb400 !important;
+  }
+}
+
+.btn-danger {
+  background-color: #ed5565 !important;
+  border-color: #eb3e50 !important;
+
+  &:hover {
+    background-color: #e8273b !important;
+    border-color: #d5172b !important;
+  }
+}
+@import 'vendor/twbs/bootstrap/scss/bootstrap';
+
+body {
+  // 字間を調整
+    letter-spacing: .1em;
+    // 文字の両端調整
+    text-align: justify;
+}
